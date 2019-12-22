@@ -43,7 +43,7 @@ class _InputPageState extends State<InputPage> {
                 child: Row(
                   children: <Widget>[
                     Expanded(
-                      child: CardBG(
+                      child: cardBG(
                         onPress: () {
                           setState(() {
                             selectedGender = Gender.male;
@@ -59,7 +59,7 @@ class _InputPageState extends State<InputPage> {
                       ),
                     ),
                     Expanded(
-                      child: CardBG(
+                      child: cardBG(
                         onPress: () {
                           setState(() {
                             selectedGender = Gender.female;
@@ -85,7 +85,7 @@ class _InputPageState extends State<InputPage> {
                 child: Row(
                   children: <Widget>[
                     Expanded(
-                      child: CardBG(
+                      child: cardBG(
                         color: kcCard,
                         child: Column(
                           mainAxisAlignment: klMacenter,
@@ -149,7 +149,7 @@ class _InputPageState extends State<InputPage> {
                   children: <Widget>[
                     // Weight
                     Expanded(
-                      child: CardBG(
+                      child: cardBG(
                         color: kcCard,
                         child: Column(
                           mainAxisAlignment: klMacenter,
@@ -216,7 +216,7 @@ class _InputPageState extends State<InputPage> {
                     ),
                     // Age
                     Expanded(
-                      child: CardBG(
+                      child: cardBG(
                         color: kcCard,
                         child: Column(
                           mainAxisAlignment: klMacenter,

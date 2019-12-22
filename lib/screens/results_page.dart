@@ -38,7 +38,7 @@ class ResultsPage extends StatelessWidget {
             ),
             Expanded(
               flex: 5,
-              child: CardBG(
+              child: cardBG(
                 color: kcCard,
                 child: Padding(
                   padding: const EdgeInsets.all(10),
