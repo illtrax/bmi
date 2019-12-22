@@ -282,7 +282,7 @@ class _InputPageState extends State<InputPage> {
               ),
             ),
             // Bottom Button
-            BottomButton(
+            bottomButton(
               text: 'CALCULATE',
               onPressed: () {
                 CalculatorBrain calc = CalculatorBrain(

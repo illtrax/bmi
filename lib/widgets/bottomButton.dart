@@ -1,18 +1,11 @@
 import 'package:flutter/material.dart';
 import '../settings.dart';
 
-class BottomButton extends StatelessWidget {
-  final String text;
-  final Function onPressed;
-
-  BottomButton({
-    @required this.text,
-    @required this.onPressed,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
+Widget bottomButton({
+  String text,
+  Function onPressed,
+}) =>
+    GestureDetector(
       onTap: onPressed,
       child: Container(
         child: Center(
@@ -27,5 +20,3 @@ class BottomButton extends StatelessWidget {
         height: klBottomContainerHeight,
       ),
     );
-  }
-}
