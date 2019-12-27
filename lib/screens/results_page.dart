@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../settings.dart';
-import '../widgets/cardBG.dart';
-import '../widgets/bottomButton.dart';
+import 'package:bmi/settings.dart';
+import 'package:bmi/widgets/cardBG.dart';
+import 'package:bmi/widgets/bottomButton.dart';
 
 class ResultsPage extends StatelessWidget {
   final String bmiResult;
